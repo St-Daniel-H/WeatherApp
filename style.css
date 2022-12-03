@@ -1,0 +1,52 @@
+body{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: rgba(34, 34, 34, 0.795);
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  font-size: 120%;
+   
+}
+#card{
+    background-color:rgba(0, 0, 0, 0.822);
+    color:white;
+    margin:2rem;
+    padding:2rem;
+    border-radius: 25px;
+    width:100%;
+    max-width:400px;
+}
+.search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    outline:none;
+    border-width:0px;
+}
+#searchText:focus{
+    border:none;
+    outline:none;
+    border-width:0px;
+}
+#searchText{
+    background-color:rgb(36, 35, 35);
+    border:none;
+    height:2.5rem;
+    width:70%;
+    border-radius: 25px;
+    color:white;
+    padding-left:12px;
+    font-size:20px;
+}
+button {
+    font-size:20px;
+    background-color:rgb(36, 35, 35);
+    border:none;
+    border-radius:50%;
+    height:2.5rem;
+    width:10%;
+    cursor:pointer;
+}
