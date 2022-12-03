@@ -18,8 +18,8 @@ let weather = {
      document.querySelector('#icon').src = "https://openweathermap.org/img/wn/"+icon+"@2x.png";
      document.querySelector('#degree').innerText = (temp- 273.15).toFixed(2) +"°C";
      document.querySelector('#cloud').innerText = description;
-     document.querySelector('#humidity').innerText = humidity +"%";
-     document.querySelector('#wind').innerText = speed +"km/h";
+     document.querySelector('#humidity').innerText = "humidity: " + humidity +"%";
+     document.querySelector('#wind').innerText = "wind speed: "+speed +"km/h";
 
     },
     search: function (){
@@ -35,3 +35,4 @@ document.querySelector("#searchText").addEventListener("keyup",function(event){
     weather.search();
   }
 });
+
